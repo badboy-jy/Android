@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype" />
+    String[] ctype = new String[]{"全部", "甘蓝", "白菜", "辣椒", "茄子"};
+
+</resources>

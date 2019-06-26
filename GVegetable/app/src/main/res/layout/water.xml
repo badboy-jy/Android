@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/top_nav">
+        <ImageView
+            android:id="@+id/gs_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/one"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="井水信息"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/gs_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主页"
+            android:textSize="14dp"
+            android:textColor="#404040"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#07a6e6"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/gs_war1"
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="东南地1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water1"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="东南地2"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water2"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/gs_w2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="东南地3"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water3"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="张敬义16号3点" />
+            <Button
+                android:id="@+id/gs_w3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="东南地4"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water4"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="西南地1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water5"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="靳兆伟16号3点"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="6"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="西南地2"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water6"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="7"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="东北地1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water7"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="8"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="东北地2"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water8"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="西北地1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water9"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="10"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="西北地2"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water10"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="11"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="后边地"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water11"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="12"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                android:text="河沿"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/gs_water12"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:hint="名字+时间"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/gs_w12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="预定"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
