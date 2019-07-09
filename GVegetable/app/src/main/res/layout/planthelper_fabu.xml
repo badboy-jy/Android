@@ -9,10 +9,10 @@
 
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:src="@drawable/one" />
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/fanhui" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -48,11 +48,10 @@
             android:gravity="center"
             android:orientation="horizontal">
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/three"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/name"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
             <EditText
                 android:id="@+id/gs_name"
                 android:layout_width="0dp"
@@ -70,11 +69,10 @@
             android:gravity="center"
             android:orientation="horizontal">
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/three"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/fuwubangshou"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
             <EditText
                 android:id="@+id/gs_renshu"
                 android:layout_width="0dp"
@@ -92,12 +90,12 @@
             android:layout_height="44dp"
             android:gravity="center"
             android:orientation="horizontal">
+
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/three"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/shijian"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
             <EditText
                 android:id="@+id/gs_time"
                 android:layout_width="0dp"
@@ -114,12 +112,12 @@
             android:layout_height="44dp"
             android:gravity="center"
             android:orientation="horizontal">
+
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/three"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/jiage"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
             <EditText
                 android:id="@+id/gs_price"
                 android:layout_width="0dp"
@@ -143,11 +141,10 @@
             android:gravity="center"
             android:orientation="horizontal">
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/four"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/shoujihao"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
             <EditText
                 android:id="@+id/gs_phone"
                 android:layout_width="0dp"
@@ -172,11 +169,10 @@
             android:gravity="center"
             android:orientation="horizontal">
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/five"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/weixin"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
             <EditText
                 android:id="@+id/gs_weixin"
                 android:layout_width="0dp"

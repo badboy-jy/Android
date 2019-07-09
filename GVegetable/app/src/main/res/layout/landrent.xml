@@ -7,10 +7,10 @@
         style="@style/top_nav">
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/one"
-            android:padding="8dp"/>
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fanhui"
+            android:padding="5dp"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -45,12 +45,12 @@
 
             <ImageView
                 android:id="@+id/gs_rent_all"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
                 android:layout_height="148dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/five" />
+                android:src="@drawable/zulinicon" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -72,7 +72,7 @@
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/five" />
+                android:src="@drawable/chuzu" />
 
             <TextView
                 android:layout_width="match_parent"

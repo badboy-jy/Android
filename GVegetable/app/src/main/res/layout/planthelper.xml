@@ -7,10 +7,10 @@
         style="@style/top_nav">
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/one"
-            android:padding="8dp"/>
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fanhui"
+            android:padding="5dp"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/five" />
+                android:src="@drawable/qiuzhu" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -65,14 +65,15 @@
             android:layout_width="match_parent"
             android:layout_height="260dp"
             android:orientation="vertical">
+
             <ImageView
                 android:id="@+id/gs_planthelper_fabu"
-                android:layout_width="match_parent"
+                android:layout_width="419dp"
                 android:layout_height="148dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/five" />
+                android:src="@drawable/fabu" />
 
             <TextView
                 android:layout_width="match_parent"

@@ -18,7 +18,7 @@ android:descendantFocusability="blocksDescendants"
         android:layout_width="55dp"
         android:layout_height="58dp"
         android:layout_centerVertical="true"
-        android:src="@drawable/three" />
+        android:src="@drawable/name" />
 
     <LinearLayout
         android:layout_width="match_parent"

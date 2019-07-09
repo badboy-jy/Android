@@ -28,7 +28,7 @@ public class PlantHelper extends AppCompatActivity implements View.OnClickListen
 
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.gs_landhelper:  //登录按钮
+            case R.id.gs_landhelper:
                 Intent intent = new Intent(this,LandHelper.class);
                 startActivity(intent);
                 break;
@@ -46,5 +46,5 @@ public class PlantHelper extends AppCompatActivity implements View.OnClickListen
                 break;
 
         }
-    }//注册按钮
+    }
 }

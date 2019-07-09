@@ -46,6 +46,12 @@ public class Rent_all extends AppCompatActivity implements View.OnClickListener 
 
         );
         lv.setAdapter(adapter);
+
+
+
+
+
+
         rent  = (TextView) findViewById(R.id.gs_rent);
         back = (ImageView) findViewById(R.id.gs_return);
         rent.setOnClickListener(this);
@@ -87,7 +93,7 @@ public class Rent_all extends AppCompatActivity implements View.OnClickListener 
                         list = gson.fromJson(jsonObiect,new TypeToken<List<UserBean>>(){}.getType());
                         for (int i=0;i<list.size();i++) {
                             Map<String,Object> map = new HashMap<String, Object>();
-                            map.put("logo",R.drawable.three);
+                            map.put("logo",R.drawable.name);
                             map.put("name",list.get(i).getName());
                             map.put("shuliang",list.get(i).getShuliang());
                             map.put("price",list.get(i).getPrice());

@@ -72,7 +72,7 @@ public class Sales_c extends AppCompatActivity implements View.OnClickListener {
 
 
         list2=new ArrayList<String>();
-        list2.add("11");
+        list2.add("ganlan");
         list2.add("baicai");
         list2.add("lajiao");
         list2.add("qiezi");
@@ -129,7 +129,7 @@ public class Sales_c extends AppCompatActivity implements View.OnClickListener {
                         list = gson.fromJson(jsonObiect,new TypeToken<List<UserBean>>(){}.getType());
                         for (int i=0;i<list.size();i++) {
                             Map<String,Object> map = new HashMap<String, Object>();
-                            map.put("logo",R.drawable.three);
+                            map.put("logo",R.drawable.name);
                             map.put("name",list.get(i).getName());
                             map.put("shuliang",list.get(i).getShuliang());
                             map.put("price",list.get(i).getPrice());

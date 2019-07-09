@@ -10,10 +10,10 @@
 
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:src="@drawable/one" />
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/fanhui" />
         <TextView
 
             android:layout_width="0dp"
@@ -43,10 +43,11 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/one">
+
         <ImageView
-            android:src="@drawable/two"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="62dp"
+            android:src="@drawable/shucai" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,11 +70,10 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="10dp"
-                android:layout_height="19dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/three" />
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/name" />
 
             <EditText
                 android:id="@+id/gs_username"
@@ -98,11 +98,10 @@
             android:orientation="horizontal"
             android:gravity="center">
             <ImageView
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="8dp"
-                android:src="@drawable/four"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/mima"
+                android:layout_width="45dp"
+                android:layout_height="match_parent" />
 
             <EditText
                 android:id="@+id/gs_password"
@@ -209,10 +208,10 @@
 
             <ImageView
                 android:id="@+id/gs_qq_login"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/five" />
+                android:src="@drawable/qqdenglu" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -232,10 +231,10 @@
 
             <ImageView
                 android:id="@+id/gs_weibo_login"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/six" />
+                android:src="@drawable/weibodenglu" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -255,10 +254,10 @@
 
             <ImageView
                 android:id="@+id/gs_weixin_login"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginBottom="3dp"
-                android:src="@drawable/seven" />
+                android:src="@drawable/weixin" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/logo"
-            android:src="@drawable/three"
+            android:src="@drawable/name"
             android:layout_centerVertical="true"
             android:layout_width="50dp"
             android:layout_height="50dp" />

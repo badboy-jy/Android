@@ -73,7 +73,7 @@ public class ForgetPassword extends AppCompatActivity implements View.OnClickLis
                     Toast.makeText(this, "电话号码不合理", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(this, "654321", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "774421", Toast.LENGTH_SHORT).show();
                 }
                 break;
 
@@ -101,7 +101,7 @@ public class ForgetPassword extends AppCompatActivity implements View.OnClickLis
             editSMS.requestFocus();
             return;
 
-        }else if (!confirmpassword.equals("654321")){
+        }else if (!confirmpassword.equals("774421")){
             Toast.makeText(this, "验证码不对", Toast.LENGTH_SHORT).show();
             editSMS.requestFocus();
             return;

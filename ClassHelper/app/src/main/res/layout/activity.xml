@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        style="@style/top_nav">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="返回"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="活动"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+    <View
+        style="@style/common_line_gray_90"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" 活动名称：" />
+
+            <TextView
+                android:id="@+id/activityname"
+                android:layout_width="312dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" 活动地点：" />
+
+            <TextView
+                android:id="@+id/activityplace"
+                android:layout_width="312dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" 活动负责人：" />
+
+            <TextView
+                android:id="@+id/activityperson"
+                android:layout_width="312dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" 活动联系方式：" />
+
+            <TextView
+                android:id="@+id/activityphone"
+                android:layout_width="312dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="227dp"
+                android:gravity="center"
+                android:text=" 活动简介：" />
+
+            <TextView
+                android:id="@+id/activitycontent"
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="历史活动" />
+
+        <Button
+            android:id="@+id/fabu"
+            android:layout_width="140dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="match_parent"
+            android:text="发布活动" />
+
+    </LinearLayout>
+
+</LinearLayout>

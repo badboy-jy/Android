@@ -80,7 +80,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
                     Toast.makeText(this, "电话号码不合理", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(this, "验证码：123456", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "验证码：156589", Toast.LENGTH_SHORT).show();
                 }
                 break;
             case R.id.gs_userhelper:
@@ -124,7 +124,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
             editSMS.requestFocus();
             return;
 
-        }else if (!confirmpassword.equals("123456")){
+        }else if (!confirmpassword.equals("156589")){
             Toast.makeText(this, "验证码错误", Toast.LENGTH_SHORT).show();
             editSMS.requestFocus();
             return;

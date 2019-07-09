@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <RelativeLayout
+        android:id="@+id/box"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/textbox"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activityname"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="活动名称"
+                android:textColor="#999"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/activityplace"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="活动地点"
+                android:textColor="#999"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/activityperson"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="活动负责人"
+                android:textColor="#999"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/activityphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="活动联系方式"
+                android:textColor="#999"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

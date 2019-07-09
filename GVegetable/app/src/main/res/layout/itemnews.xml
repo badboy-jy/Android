@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/logo"
-            android:src="@drawable/three"
+            android:src="@drawable/name"
             android:layout_centerVertical="true"
             android:layout_width="50dp"
             android:layout_height="50dp" />
@@ -37,8 +37,14 @@
             <TextView
                 android:id="@+id/gs_news"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="left" />
+
+            <TextView
+                android:id="@+id/list_time"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="time" />
 
 
 

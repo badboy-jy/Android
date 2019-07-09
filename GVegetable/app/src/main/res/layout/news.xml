@@ -7,10 +7,10 @@
         style="@style/top_nav">
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/one"
-            android:padding="8dp"/>
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fanhui"
+            android:padding="5dp"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             android:layout_width="80dp"
             android:layout_height="99dp"
             android:gravity="center"
-            android:hint="名字" />
+            android:hint="匿名" />
 
         <EditText
             android:id="@+id/gs_news"

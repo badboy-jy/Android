@@ -28,7 +28,9 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -61,8 +63,8 @@ public class News extends AppCompatActivity implements View.OnClickListener {
                 this,
                 list1,
                 R.layout.itemnews,
-                new String[]{"logo","name","news"},
-                new int []{R.id.logo,R.id.gs_name,R.id.gs_news}
+                new String[]{"logo","name","news","time"},
+                new int []{R.id.logo,R.id.gs_name,R.id.gs_news,R.id.list_time}
 
         );
         lv.setAdapter(adapter);
@@ -102,9 +104,10 @@ public class News extends AppCompatActivity implements View.OnClickListener {
                         list = gson.fromJson(jsonObiect,new TypeToken<List<UserBean>>(){}.getType());
                         for (int i=0;i<list.size();i++) {
                             Map<String,Object> map = new HashMap<String, Object>();
-                            map.put("logo",R.drawable.three);
+                            map.put("logo",R.drawable.name);
                             map.put("name",list.get(i).getName());
                             map.put("news",list.get(i).getNews());
+                            map.put("time",getTime());
                             list1.add(map);
                         }
 
@@ -120,6 +123,14 @@ public class News extends AppCompatActivity implements View.OnClickListener {
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
+            }
+
+            private String getTime() {
+                SimpleDateFormat format = new SimpleDateFormat("yyyy年mm月dd日 HH：mm：ss");
+                Date date = new Date();
+                String str = format.format(date);
+                return str;
+
             }
         }).start();
 

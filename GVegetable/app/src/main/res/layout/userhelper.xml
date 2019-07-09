@@ -8,10 +8,10 @@
 
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:padding="8dp"
-            android:src="@drawable/one" />
+            android:padding="5dp"
+            android:src="@drawable/fanhui" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"

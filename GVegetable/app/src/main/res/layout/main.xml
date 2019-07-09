@@ -7,12 +7,13 @@
     android:layout_height="match_parent">
     <LinearLayout
         style="@style/top_nav">
+
         <ImageView
             android:id="@+id/gs_return"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/one"
-            android:padding="8dp"/>
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/fanhui" />
 
         <TextView
             android:layout_width="235dp"
@@ -37,10 +38,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guanggao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="今日份最佳能手：" />
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/four"/>
+            android:src="@drawable/guanggaotwo" />
+
     </LinearLayout>
     <View
         style="@style/common_line_gray_90"/>
@@ -74,7 +88,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/fuwubangshou" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -99,7 +113,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/tudi" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -123,7 +137,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/shuijing" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -165,7 +179,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/xiaoshou" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -190,7 +204,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/zichan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -215,7 +229,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/zoushi" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -260,7 +274,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/store" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -285,7 +299,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/jilu" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -310,7 +324,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="3dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/xiaoxi" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -335,7 +349,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/five" />
+                    android:src="@drawable/gerenqingkuang" />
 
                 <TextView
                     android:layout_width="wrap_content"
